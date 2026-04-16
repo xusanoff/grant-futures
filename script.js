@@ -65,7 +65,7 @@ const productsData = [
     desc:{uz:"Oltin bezaklar bilan oq rangdagi klassik barokko dizayn. Ikki penal va katta komoddan iborat to'liq to'plam.",cy:"Олтин безаклар билан оқ рангдаги классик баррокко дизайн.",ru:"Классический дизайн в белом цвете с золотыми украшениями.",en:"Classic baroque design in white with gold ornaments."},
     sizes:"Kamod: 200x55 | Penal: 250x100x55",
     images:["./products/grant1.jpg","./products/grant2.jpg"],
-    video:"./products/grant_video.mp4",
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347177/grant_video_nozisf.mp4",
     badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
   },
   {
@@ -74,7 +74,7 @@ const productsData = [
     desc:{uz:"Hashamatli Pallazzo kolleksiyasi. Ikki penal va katta komod bilan to'liq to'plam.",cy:"Ҳашаматли Pallazzo коллекцияси.",ru:"Роскошная коллекция Паллаццо с двумя пеналами и комодом.",en:"Luxurious Pallazzo collection with two penals and a large komod."},
     sizes:"Kamod: 221x60 | Penal: 250x80x60",
     images:["./products/pallazzo1.jpg"],
-    video:"./products/pallazzo_video.mp4",
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347455/pallazzo_video_pdjgqc.mp4",
     badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
   },
   {
@@ -83,7 +83,7 @@ const productsData = [
     desc:{uz:"Zamonaviy hi-tech uslubdagi oq rangdagi nafis penal komod to'plami.",cy:"Замонавий hi-tech услубдаги оқ рангдаги нафис пенал комод тўплами.",ru:"Элегантный комплект в стиле hi-tech в белом цвете.",en:"Elegant hi-tech style penal komod set in white."},
     sizes:"Kamod: 220x55 | Penal: 250x80x55",
     images:["./products/nur1.jpg"],
-    video:"./products/nur_video.mp4",
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776346951/nur_video_kcni1n.mp4",
     badge:{uz:"Mashhur",cy:"Машҳур",ru:"Популярное",en:"Popular"}
   },
   {
