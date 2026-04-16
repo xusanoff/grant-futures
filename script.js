@@ -368,8 +368,9 @@ function refreshModal(){
   }).join('');
 
   const mainContent=current.type==='video'
-    ?`<video controls autoplay style="width:100%;height:100%;object-fit:contain;background:#000;">
+    ?`<video controls playsinline preload="metadata" style="width:100%;height:100%;object-fit:contain;background:#000;" poster="${p.images[0]}">
         <source src="${current.src}" type="video/mp4">
+        <source src="${current.src}" type="video/quicktime">
       </video>`
     :`<img id="modalMainImg" src="${current.src}" alt="${pName(p)}" onerror="this.src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800'">`;
 
