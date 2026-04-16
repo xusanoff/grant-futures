@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant Futures | Premium mebellar va buyurtma asosida zamonaviy mebel</title>
+    <meta name="description" content="Grant Futures premium mebellar ishlab chiqaradi: divanlar, yotoqxona mebellari, shkaflar va buyurtma asosida zamonaviy mebel yechimlari.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Grant Futures">
+    <meta name="keywords" content="premium mebel, zamonaviy mebel, mebel buyurtma, Grant Futures">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uz_UZ">
+    <meta property="og:site_name" content="Grant Futures">
+    <meta property="og:title" content="Grant Futures | Premium mebellar">
+    <meta property="og:description" content="Divanlar, yotoqxona mebellari, shkaflar va buyurtma asosida tayyorlanadigan premium mebellar.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1705326701287-346fc37a2c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200">
+    <link rel="canonical" href="https://grantfutures.uz/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FurnitureStore","name":"Grant Futures","url":"https://grantfutures.uz/","telephone":"+998991227772","email":"grantfutures@gmail.com"}
+    </script>
+</head>
+<body>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay" onclick="closeMobileMenu()"></div>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu-drawer" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <span style="font-weight:700;font-size:1.1rem;color:var(--color-primary)">Grant Futures</span>
+            <button class="mobile-menu-close" onclick="closeMobileMenu()">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <nav class="mobile-menu-nav">
+            <button onclick="scrollToSection('about')" data-i18n="nav_about">Biz haqimizda</button>
+            <button onclick="scrollToSection('categories')" data-i18n="nav_catalog">Katalog</button>
+            <button onclick="scrollToSection('products')" data-i18n="nav_products">Mahsulotlar</button>
+            <button onclick="scrollToSection('contact')" data-i18n="nav_contact">Aloqa</button>
+        </nav>
+        <div class="mobile-menu-contact">
+            <a href="tel:+998991227772">
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                +998(99)122-77-72
+            </a>
+        </div>
+        <div class="mobile-lang-switcher">
+            <button class="lang-btn" data-lang="uz" onclick="setLang('uz')">UZ</button>
+            <button class="lang-btn" data-lang="cy" onclick="setLang('cy')">УЗ</button>
+            <button class="lang-btn" data-lang="ru" onclick="setLang('ru')">RU</button>
+            <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo"><h1>Grant Futures</h1></div>
+
+                <nav class="nav-desktop">
+                    <button onclick="scrollToSection('about')" data-i18n="nav_about">Biz haqimizda</button>
+                    <button onclick="scrollToSection('categories')" data-i18n="nav_catalog">Katalog</button>
+                    <button onclick="scrollToSection('products')" data-i18n="nav_products">Mahsulotlar</button>
+                    <button onclick="scrollToSection('contact')" data-i18n="nav_contact">Aloqa</button>
+                </nav>
+
+                <div class="header-right">
+                    <div class="lang-switcher">
+                        <button class="lang-btn" data-lang="uz" onclick="setLang('uz')">UZ</button>
+                        <button class="lang-btn" data-lang="cy" onclick="setLang('cy')">УЗ</button>
+                        <button class="lang-btn" data-lang="ru" onclick="setLang('ru')">RU</button>
+                        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+                    </div>
+                    <div class="header-contact">
+                        <a href="tel:+998991227772" class="contact-link">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                            <span>+998(99)122-77-72</span>
+                        </a>
+                    </div>
+                </div>
+
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="hero-title" data-i18n="hero_title">Zamonaviy hayot uchun premium mebellar</h2>
+                        <p class="hero-description" data-i18n="hero_desc">Grant Futures bilan yuqori sifat va betakror dizaynni kashf eting.</p>
+                    </div>
+                    <div class="hero-buttons">
+                        <button onclick="scrollToSection('categories')" class="btn btn-primary">
+                            <span data-i18n="hero_btn_catalog">Katalogni ko'rish</span>
+                            <svg class="icon-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </button>
+                        <button onclick="scrollToSection('contact')" class="btn btn-secondary" data-i18n="hero_btn_consult">Konsultatsiya olish</button>
+                    </div>
+                    <div class="trust-indicators">
+                        <div class="trust-item"><p class="trust-number">15+</p><p class="trust-label" data-i18n="trust_exp">Yillik tajriba</p></div>
+                        <div class="trust-item"><p class="trust-number">5000+</p><p class="trust-label" data-i18n="trust_clients">Mamnun mijozlar</p></div>
+                        <div class="trust-item"><p class="trust-number">100%</p><p class="trust-label" data-i18n="trust_quality">Sifat kafolati</p></div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1705326701287-346fc37a2c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Premium mebellar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="about_title">Grant Futures haqida</h2>
+                <p class="section-description" data-i18n="about_desc">Biz zamonaviy dizayn, yuqori sifat va uzoq muddatli chidamlilikni birlashtirgan betakror mebellar yaratishga ixtisoslashgan yetakchi ishlab chiqaruvchimiz.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
+                    <h3 class="feature-title" data-i18n="feat1_title">To'g'ridan-to'g'ri fabrikadan</h3>
+                    <p class="feature-text" data-i18n="feat1_text">Barcha mebellar o'z korxonamizda qat'iy sifat nazorati asosida ishlab chiqariladi</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg></div>
+                    <h3 class="feature-title" data-i18n="feat2_title">Zamonaviy dizayn</h3>
+                    <p class="feature-text" data-i18n="feat2_text">Har qanday zamonaviy uy interyeriga mos tushadigan nafis va zamon bilan hamnafas ko'rinish</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg></div>
+                    <h3 class="feature-title" data-i18n="feat3_title">Premium materiallar</h3>
+                    <p class="feature-text" data-i18n="feat3_text">Mustahkamlik va uzoq yillar chiroyini saqlashi uchun faqat eng sifatli materiallar tanlanadi</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+                    <h3 class="feature-title" data-i18n="feat4_title">Ustalik va mahorat</h3>
+                    <p class="feature-text" data-i18n="feat4_text">Har bir mahsulotga ko'p yillik tajribaga ega ustalar mehnati singdiriladi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="cat_title">Asosiy mebel kategoriyalari</h2>
+                <p class="section-description" data-i18n="cat_desc">Uyingizning har bir xonasi uchun mo'ljallangan premium mebel kolleksiyalarimiz bilan tanishing</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-image"><img src="https://images.unsplash.com/photo-1762803841422-5b8cf8767cd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Divanlar"></div>
+                    <div class="category-content">
+                        <h3 class="category-title" data-i18n="cat_sofas">Divanlar</h3>
+                        <p class="category-description" data-i18n="cat_sofas_desc">Yashash xonangiz uchun qulay va zamonaviy divanlar</p>
+                        <div class="category-link"><span data-i18n="cat_view">Kolleksiyani ko'rish</span><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image"><img src="https://images.unsplash.com/photo-1768946131535-b90bad125f16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Yotoqxona"></div>
+                    <div class="category-content">
+                        <h3 class="category-title" data-i18n="cat_bedroom">Yotoqxona mebellari</h3>
+                        <p class="category-description" data-i18n="cat_bedroom_desc">To'liq yotoqxona to'plamlari va alohida mebel mahsulotlari</p>
+                        <div class="category-link"><span data-i18n="cat_view">Kolleksiyani ko'rish</span><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image"><img src="https://images.unsplash.com/photo-1758977404096-20d813c73329?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Ovqatlanish"></div>
+                    <div class="category-content">
+                        <h3 class="category-title" data-i18n="cat_dining">Ovqatlanish stollari</h3>
+                        <p class="category-description" data-i18n="cat_dining_desc">Oilaviy yig'inlar uchun nafis ovqatlanish stollari</p>
+                        <div class="category-link"><span data-i18n="cat_view">Kolleksiyani ko'rish</span><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image"><img src="https://images.unsplash.com/photo-1765277789183-a08a084312bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Shkaflar"></div>
+                    <div class="category-content">
+                        <h3 class="category-title" data-i18n="cat_wardrobes">Shkaflar</h3>
+                        <p class="category-description" data-i18n="cat_wardrobes_desc">Kiyimlaringiz uchun keng va qulay saqlash yechimlari</p>
+                        <div class="category-link"><span data-i18n="cat_view">Kolleksiyani ko'rish</span><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image"><img src="https://images.unsplash.com/photo-1572540687997-faa6c247ba53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Buyurtma mebel"></div>
+                    <div class="category-content">
+                        <h3 class="category-title" data-i18n="cat_custom">Buyurtma asosida mebel</h3>
+                        <p class="category-description" data-i18n="cat_custom_desc">Sizning talab va o'lchamlaringiz asosida tayyorlangan mahsulotlar</p>
+                        <div class="category-link"><span data-i18n="cat_view">Kolleksiyani ko'rish</span><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header section-header-light">
+                <h2 class="section-title section-title-light" data-i18n="why_title">Nega aynan Grant Futures?</h2>
+                <p class="section-description section-description-light" data-i18n="why_desc">Biz ishlab chiqarishdagi mukammallikni mijozga yo'naltirilgan xizmat bilan birlashtirib, eng yaxshi mebel tajribasini taqdim etamiz</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3 class="why-title" data-i18n="why1_title">To'g'ridan-to'g'ri fabrikada</h3><p class="why-text" data-i18n="why1_text">Biz barcha mebellarni o'z korxonamizda ishlab chiqaramiz.</p></div>
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div><h3 class="why-title" data-i18n="why2_title">Yuqori sifatli materiallar</h3><p class="why-text" data-i18n="why2_text">Faqat premium materiallardan foydalaniladi.</p></div>
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg></div><h3 class="why-title" data-i18n="why3_title">Zamonaviy dizayn</h3><p class="why-text" data-i18n="why3_text">Zamonaviy interyer uslublari bilan mukammal uyg'unlashadigan nafis ko'rinish.</p></div>
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3 class="why-title" data-i18n="why4_title">Maxsus buyurtmalar</h3><p class="why-text" data-i18n="why4_text">O'zgacha mahsulot kerakmi? Biz sizning xohishingizga mos maxsus mebellarni tayyorlaymiz.</p></div>
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/></svg></div><h3 class="why-title" data-i18n="why5_title">Yetkazib berish</h3><p class="why-text" data-i18n="why5_text">Qulayligingiz uchun professional yetkazib berish va o'rnatish xizmati mavjud.</p></div>
+                <div class="why-card"><div class="why-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3 class="why-title" data-i18n="why6_title">Sifat kafolati</h3><p class="why-text" data-i18n="why6_text">Har bir mahsulot to'liq kafolat va sifat nazorati bilan taqdim etiladi.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Selling Products -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="prod_title">Eng ko'p sotilgan mahsulotlar</h2>
+                <p class="section-description" data-i18n="prod_desc">Minglab mamnun mijozlar sevib tanlagan eng mashhur mebel mahsulotlarimiz bilan tanishing</p>
+            </div>
+            <div class="product-grid" id="productGrid">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-inner"></div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="reviews_title">Mijozlarimiz fikri</h2>
+                <p class="section-description" data-i18n="reviews_desc">Faqat bizning so'zimizga ishonib qolmang — mamnun mijozlarimiz fikrini ham o'qing</p>
+            </div>
+            <div class="review-grid">
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Grant Futures mebellarining sifati ajoyib. Biz butun mehmonxonamizni jihozladik va zamonaviy dizayn hamda qulaylikdan juda mamnunmiz."</p><div class="review-author"><p class="author-name">Sevara Olimova</p><p class="author-location">Toshkent, Mirzo Ulug'bek tumani</p></div></div>
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Ajoyib mahorat! Biz buyurtma asosida ovqatlanish stolini yasattirdik va mayda detallargacha e'tibor berilgani bizni hayratda qoldirdi."</p><div class="review-author"><p class="author-name">Muhsin Asadov</p><p class="author-location">Samarqand, Bulung'ur tumani</p></div></div>
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Konsultatsiyadan tortib yetkazib berishgacha butun jarayon yuqori darajada bo'ldi. Mebel chiroyli, mustahkam va uyimizga juda mos tushdi."</p><div class="review-author"><p class="author-name">Eshmatova Gulmira</p><p class="author-location">Samarqand, Ishtixon tumani</p></div></div>
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Biz Grant Futures'dan bir necha yildan beri turli mahsulotlar xarid qilamiz. Sifat har doim bir xil yuqori darajada qolmoqda."</p><div class="review-author"><p class="author-name">Toshpolat Saidov</p><p class="author-location">Toshkent vil, Bekobod tumani</p></div></div>
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Biz sotib olgan yotoqxona mebel to'plami asosiy yotoqxonamizni butunlay o'zgartirib yubordi. Minimalist dizayn aynan biz xohlagandek."</p><div class="review-author"><p class="author-name">Jamila Sattorova</p><p class="author-location">Toshkent, Olmazor tumani</p></div></div>
+                <div class="review-card"><div class="quote-icon">"</div><div class="review-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><p class="review-text">"Premium sifat va zavod narxi — Grant Futures'ni boshqalardan ajratib turadigan jihat shu. Mehmonlar doim maqtashadi!"</p><div class="review-author"><p class="author-name">Rajabboy Qosimov</p><p class="author-location">Toshkent vil, Bo'stonliq tumani</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order -->
+    <section class="how-to-order">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="order_title">Qanday buyurtma beriladi</h2>
+                <p class="section-description" data-i18n="order_desc">Orzuyingizdagi mebelga ega bo'lish bizning qulay 3 bosqichli jarayonimiz bilan juda oson</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg></div>
+                    <div class="step-number">01</div>
+                    <h3 class="step-title" data-i18n="step1_title">Mebelni tanlang</h3>
+                    <p class="step-text" data-i18n="step1_text">Keng katalogimizni ko'rib chiqing va uyingiz uchun mos mahsulotlarni tanlang.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+                    <div class="step-number">02</div>
+                    <h3 class="step-title" data-i18n="step2_title">Biz bilan bog'laning</h3>
+                    <p class="step-text" data-i18n="step2_text">Telefon, email yoki aloqa formasi orqali murojaat qiling.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/></svg></div>
+                    <div class="step-number">03</div>
+                    <h3 class="step-title" data-i18n="step3_title">Yetkazib berish va o'rnatish</h3>
+                    <p class="step-text" data-i18n="step3_text">Biz yetkazib berishdan tortib professional o'rnatishgacha barcha ishni hal qilamiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-i18n="cta_title">Uyingizni premium mebellar bilan yangilang</h2>
+                <p class="cta-description" data-i18n="cta_desc">Yashash makoningizni yanada chiroyli va qulay qilishga tayyormisiz?</p>
+                <div class="cta-buttons">
+                    <button onclick="scrollToSection('contact')" class="btn btn-light">
+                        <span data-i18n="cta_btn1">Biz bilan bog'laning</span>
+                        <svg class="icon-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </button>
+                    <button onclick="scrollToSection('contact')" class="btn btn-outline-light">
+                        <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                        <span data-i18n="cta_btn2">Konsultatsiya olish</span>
+                    </button>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature"><p class="cta-feature-title" data-i18n="cta_free">Bepul</p><p class="cta-feature-text" data-i18n="cta_consult">Konsultatsiya</p></div>
+                    <div class="cta-feature"><p class="cta-feature-title" data-i18n="cta_individual">Individual</p><p class="cta-feature-text" data-i18n="cta_design">Dizayn variantlari</p></div>
+                    <div class="cta-feature"><p class="cta-feature-title" data-i18n="cta_pro">Professional</p><p class="cta-feature-text" data-i18n="cta_install">O'rnatish</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="contact_title">Biz bilan bog'laning</h2>
+                <p class="section-description" data-i18n="contact_desc">Savollaringiz bormi? Biz yordam berishga tayyormiz.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading" data-i18n="contact_info">Aloqa ma'lumotlari</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+                            <div><p class="contact-label" data-i18n="phone_label">Telefon</p><a href="tel:+998991227772" class="contact-link">+998(99)122-77-72</a><p class="contact-hours" data-i18n="phone_hours">Har kuni: 9:00 - 18:00</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+                            <div><p class="contact-label" data-i18n="email_label">Email</p><a href="mailto:grantfutures@gmail.com" class="contact-link">grantfutures@gmail.com</a></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+                            <div><p class="contact-label" data-i18n="address_label">Manzil</p><p class="contact-address">Nazarbek ko'chasi, Turkiston Shabbodasi, Toshkent</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></div>
+                            <div><p class="contact-label" data-i18n="insta_label">Instagram</p><a href="https://instagram.com/grantfutures" target="_blank" rel="noopener noreferrer" class="contact-link">@grantfutures</a></div>
+                        </div>
+                    </div>
+                    <div class="business-hours">
+                        <h4 class="business-hours-title" data-i18n="hours_title">Showroom ish vaqti</h4>
+                        <div class="hours-list">
+                            <div class="hours-item"><span data-i18n="hours_weekdays">Har kuni</span><span>9:00 - 18:00</span></div>
+                            <div class="hours-item"></div>
+                            <div class="hours-item"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3 class="contact-heading" data-i18n="form_title">Bizga xabar yuboring</h3>
+                    <div id="formSuccess">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <span data-i18n="form_success">Xabaringiz yuborildi! Tez orada siz bilan bog'lanamiz.</span>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-i18n="form_name">To'liq ism *</label>
+                            <input type="text" id="name" name="name" required data-i18n-ph="form_name_ph" placeholder="Somatov Abdulaziz">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="form_email">Email manzil *</label>
+                            <input type="email" id="email" name="email" required placeholder="abdulaziz123@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="form_phone">Telefon raqam</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+998(99)122-77-72">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="form_message">Xabar *</label>
+                            <textarea id="message" name="message" required rows="5" data-i18n-ph="form_message_ph" placeholder="Sizga qanday mebel kerakligini yozing..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span data-i18n="form_send">Xabar yuborish</span>
+                            <svg class="icon-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">Grant Futures</h3>
+                    <p class="footer-text" data-i18n="footer_desc">Zamonaviy dizayn, yuqori sifat va uzoq muddatli chidamlilikni birlashtirgan premium mebellar yaratishga ixtisoslashgan ishlab chiqaruvchi.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title" data-i18n="footer_links">Tezkor havolalar</h4>
+                    <ul class="footer-links">
+                        <li><button onclick="scrollToSection('about')" data-i18n="footer_about">Biz haqimizda</button></li>
+                        <li><button onclick="scrollToSection('categories')" data-i18n="footer_catalog">Mebel katalogi</button></li>
+                        <li><button onclick="scrollToSection('products')" data-i18n="footer_bestsellers">Eng ko'p sotilganlar</button></li>
+                        <li><button onclick="scrollToSection('contact')" data-i18n="nav_contact">Aloqa</button></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title" data-i18n="footer_cats">Kategoriyalar</h4>
+                    <ul class="footer-links">
+                        <li data-i18n="footer_sofas">Divanlar</li>
+                        <li data-i18n="footer_bedroom">Yotoqxona mebellari</li>
+                        <li data-i18n="footer_dining">Ovqatlanish stollari</li>
+                        <li data-i18n="footer_wardrobes">Shkaflar</li>
+                        <li data-i18n="footer_custom">Buyurtma asosida mebel</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title" data-i18n="footer_contact">Biz bilan bog'laning</h4>
+                    <ul class="footer-contact">
+                        <li><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:+998991227772">+998(99)122-77-72</a></li>
+                        <li><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:grantfutures@gmail.com">grantfutures@gmail.com</a></li>
+                        <li><svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg><a href="https://instagram.com/grantfutures" target="_blank" rel="noopener noreferrer">@grantfutures</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_rights">© 2026 Grant Futures. Barcha huquqlar himoyalangan.</p>
+                <div class="footer-legal">
+                    <button data-i18n="footer_privacy">Maxfiylik siyosati</button>
+                    <button data-i18n="footer_terms">Foydalanish shartlari</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
