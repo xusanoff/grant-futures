@@ -60,60 +60,6 @@ translations.en={nav_about:"About Us",nav_catalog:"Catalog",nav_products:"Produc
 // =============================================
 const productsData = [
   {
-    id:1,
-    name:{uz:"Grant penal komod",cy:"Grant пенал комод",ru:"Грант пенал комод",en:"Grant Penal Komod"},
-    desc:{uz:"Oltin bezaklar bilan oq rangdagi klassik barokko dizayn. Ikki penal va katta komoddan iborat to'liq to'plam.",cy:"Олтин безаклар билан оқ рангдаги классик баррокко дизайн.",ru:"Классический дизайн в белом цвете с золотыми украшениями.",en:"Classic baroque design in white with gold ornaments."},
-    sizes:"Kamod: 200x55 | Penal: 250x100x55",
-    images:["./products/grant1.jpg","./products/grant2.jpg"],
-    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347177/grant_video_nozisf.mp4",
-    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
-  },
-  {
-    id:2,
-    name:{uz:"Pallazzo penal komod",cy:"Pallazzo пенал комод",ru:"Паллаццо пенал комод",en:"Pallazzo Penal Komod"},
-    desc:{uz:"Hashamatli Pallazzo kolleksiyasi. Ikki penal va katta komod bilan to'liq to'plam.",cy:"Ҳашаматли Pallazzo коллекцияси.",ru:"Роскошная коллекция Паллаццо с двумя пеналами и комодом.",en:"Luxurious Pallazzo collection with two penals and a large komod."},
-    sizes:"Kamod: 221x60 | Penal: 250x80x60",
-    images:["./products/pallazzo1.jpg"],
-    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347455/pallazzo_video_pdjgqc.mp4",
-    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
-  },
-  {
-    id:3,
-    name:{uz:"Nur eco Hi-tech penal komod",cy:"Nur eco Hi-tech пенал комод",ru:"Нур эко Hi-tech пенал комод",en:"Nur Eco Hi-Tech Penal Komod"},
-    desc:{uz:"Zamonaviy hi-tech uslubdagi oq rangdagi nafis penal komod to'plami.",cy:"Замонавий hi-tech услубдаги оқ рангдаги нафис пенал комод тўплами.",ru:"Элегантный комплект в стиле hi-tech в белом цвете.",en:"Elegant hi-tech style penal komod set in white."},
-    sizes:"Kamod: 220x55 | Penal: 250x80x55",
-    images:["./products/nur1.jpg"],
-    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776346951/nur_video_kcni1n.mp4",
-    badge:{uz:"Mashhur",cy:"Машҳур",ru:"Популярное",en:"Popular"}
-  },
-  {
-    id:4,
-    name:{uz:"Aziya Shampan penal komod",cy:"Aziya Shampan пенал комод",ru:"Азия Шампань пенал комод",en:"Aziya Shampan Penal Komod"},
-    desc:{uz:"Shampan rangidagi nafis Aziya kolleksiyasi. Ikki penal va komoddan iborat to'plam.",cy:"Шампань рангидаги нафис Азия коллекцияси.",ru:"Элегантная коллекция Азия в цвете шампань.",en:"Elegant Aziya collection in champagne color."},
-    sizes:"Kamod: 185x55 | Penal: 255x105x55",
-    images:["./products/aziya_shampan1.jpg"],
-    video:null,
-    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
-  },
-  {
-    id:5,
-    name:{uz:"Aziya Orex penal komod",cy:"Aziya Orex пенал комод",ru:"Азия Орех пенал комод",en:"Aziya Orex Penal Komod"},
-    desc:{uz:"Yog'och rangidagi Aziya Orex kolleksiyasi. Klassik dizayn va premium materiallar.",cy:"Ёғоч рангидаги Азия Orex коллекцияси.",ru:"Коллекция Азия Орех в цвете дерева.",en:"Aziya Orex collection in wood color."},
-    sizes:"Kamod: 185x55 | Penal: 255x105x55",
-    images:["./products/aziya_orex1.jpg"],
-    video:null,
-    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
-  },
-  {
-    id:6,
-    name:{uz:"Italiano yotoqxona to'plami",cy:"Italiano ётоқхона тўплами",ru:"Итальяно спальный гарнитур",en:"Italiano Bedroom Set"},
-    desc:{uz:"100% MDF materialdan zamonaviy Italiano yotoqxona to'plami. Krovat, shkaf, kamod va tumba.",cy:"100% MDF материалдан замонавий Italiano ётоқхона тўплами.",ru:"Современный спальный гарнитур Итальяно из 100% МДФ.",en:"Modern Italiano bedroom set made of 100% MDF."},
-    sizes:"Krovat: 210x180 | Shkaf: 275x230 | Tumba: 60x50 | Kamod: 160x110",
-    images:["./products/italiano1.jpg","./products/italiano2.jpg","./products/italiano3.jpg","./products/italiano4.jpg","./products/italiano5.jpg"],
-    video:null,
-    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
-  },
-  {
     id:7,
     name:{uz:"Milano burchak divani",cy:"Milano бурчак дивани",ru:"Угловой диван Милано",en:"Milano Corner Sofa"},
     desc:{uz:"Turkiya mexanizmi va materiali, Rossiya karkazi va paralonidan tayyorlangan Milano burchak divani.",cy:"Туркия механизми ва материали, Россия каркасидан тайёрланган Milano бурчак дивани.",ru:"Угловой диван Милано с турецким механизмом и материалом.",en:"Milano corner sofa with Turkish mechanism and material."},
@@ -128,33 +74,6 @@ const productsData = [
     desc:{uz:"Ko'k rangdagi charm Biznes divan to'plami. Divan va ikki kreslodan iborat.",cy:"Кўк рангдаги чарм Biznes диван тўплами.",ru:"Диванный гарнитур Бизнес в синей коже.",en:"Biznes sofa set in blue leather."},
     sizes:"4.1x1 m",
     images:["./products/biznes1.jpg","./products/biznes2.jpg","./products/biznes3.jpg","./products/biznes4.jpg"],
-    video:null,
-    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
-  },
-  {
-    id:9,
-    name:{uz:"Monika yotoqxona to'plami",cy:"Monika ётоқхона тўплами",ru:"Спальный гарнитур Моника",en:"Monika Bedroom Set"},
-    desc:{uz:"Oq rangdagi nafis Monika yotoqxona to'plami. Shkaf, krovat, tryumo, tumba va boy oynadan iborat.",cy:"Оқ рангдаги нафис Monika ётоқхона тўплами.",ru:"Элегантный спальный гарнитур Моника в белом цвете.",en:"Elegant white Monika bedroom set."},
-    sizes:"Shkaf: 270x220 | Krovat: 220x140 | Tryumo: 180x165 | Tumba: 55x66",
-    images:["./products/monika1.jpg","./products/monika2.jpg","./products/monika3.jpg","./products/monika4.jpg","./products/monika5.jpg"],
-    video:null,
-    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
-  },
-  {
-    id:10,
-    name:{uz:"Sofiya yotoqxona to'plami",cy:"Sofiya ётоқхона тўплами",ru:"Спальный гарнитур София",en:"Sofiya Bedroom Set"},
-    desc:{uz:"Zamonaviy Sofiya yotoqxona to'plami. Bronza eshikli shkaf va to'liq jihozlar bilan.",cy:"Замонавий Sofiya ётоқхона тўплами бронза эшикли шкаф билан.",ru:"Современный гарнитур София с шкафом с бронзовыми дверями.",en:"Modern Sofiya bedroom set with bronze-door wardrobe."},
-    sizes:"Shkaf: 260x230 | Krovat: 230x220 | Tryumo: 175x140 | Tumba: 40x60",
-    images:["./products/sofiya1.jpg","./products/sofiya2.jpg","./products/sofiya3.jpg","./products/sofiya4.jpg","./products/sofiya5.jpg"],
-    video:null,
-    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
-  },
-  {
-    id:11,
-    name:{uz:"Lusso yotoqxona to'plami",cy:"Lusso ётоқхона тўплами",ru:"Спальный гарнитур Луссо",en:"Lusso Bedroom Set"},
-    desc:{uz:"Krem va yog'och kombinatsiyasidagi Lusso yotoqxona to'plami. To'liq jihozlar bilan.",cy:"Крем ва ёғоч комбинациясидаги Lusso ётоқхона тўплами.",ru:"Гарнитур Луссо в сочетании кремового цвета и дерева.",en:"Lusso bedroom set in cream and wood combination."},
-    sizes:"Shkaf: 270x220 | Krovat: 260x210 | Tryumo: 185x140 | Tumba: 55x60",
-    images:["./products/lusso1.jpg","./products/lusso2.jpg","./products/lusso3.jpg","./products/lusso4.jpg","./products/lusso5.jpg"],
     video:null,
     badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
   },
@@ -204,31 +123,40 @@ const productsData = [
     badge:{uz:"Mashhur",cy:"Машҳур",ru:"Популярное",en:"Popular"}
   },
   {
-    id:17,
-    name:{uz:"Sofia penal komod",cy:"Sofia пенал комод",ru:"София пенал комод",en:"Sofia Penal Komod"},
-    desc:{uz:"Zamonaviy hi-tech uslubdagi oq va oltin rangdagi Sofia penal komod to'plami.",cy:"Замонавий hi-tech услубдаги оқ ва олтин рангдаги Sofia пенал комод тўплами.",ru:"Современный комплект пенал-комод София в белом и золотом цвете.",en:"Modern Sofia penal komod set in white and gold."},
-    sizes:"Penal: 230x80x50 | Kamod: 230x265",
-    images:["./products/sofia_pk1.jpg","./products/sofia_pk2.jpg","./products/sofia_pk3.jpg","./products/sofia_pk4.jpg"],
+    id:6,
+    name:{uz:"Italiano yotoqxona to'plami",cy:"Italiano ётоқхона тўплами",ru:"Итальяно спальный гарнитур",en:"Italiano Bedroom Set"},
+    desc:{uz:"100% MDF materialdan zamonaviy Italiano yotoqxona to'plami. Krovat, shkaf, kamod va tumba.",cy:"100% MDF материалдан замонавий Italiano ётоқхона тўплами.",ru:"Современный спальный гарнитур Итальяно из 100% МДФ.",en:"Modern Italiano bedroom set made of 100% MDF."},
+    sizes:"Krovat: 210x180 | Shkaf: 275x230 | Tumba: 60x50 | Kamod: 160x110",
+    images:["./products/italiano1.jpg","./products/italiano2.jpg","./products/italiano3.jpg","./products/italiano4.jpg","./products/italiano5.jpg"],
     video:null,
     badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
   },
   {
-    id:18,
-    name:{uz:"Sezar penal komod",cy:"Sezar пенал комод",ru:"Цезарь пенал комод",en:"Sezar Penal Komod"},
-    desc:{uz:"Zamonaviy Sezar penal komod to'plami. Katta ko'zgu va shisha penallar bilan.",cy:"Замонавий Sezar пенал комод тўплами. Катта кўзгу ва шиша пеналлар билан.",ru:"Современный комплект Цезарь с большим зеркалом и стеклянными пеналами.",en:"Modern Sezar set with large mirror and glass penals."},
-    sizes:"Penal: 220x75 | Kamod: 220x200",
-    images:["./products/sezar1.jpg","./products/sezar2.jpg","./products/sezar3.jpg","./products/sezar4.jpg"],
-    video:null,
-    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
-  },
-  {
-    id:19,
-    name:{uz:"Monaliza penal komod",cy:"Monaliza пенал комод",ru:"Монализа пенал комод",en:"Monaliza Penal Komod"},
-    desc:{uz:"Hashamatli Monaliza kolleksiyasi. Uch oynali nafis komod va barokko uslubidagi penal.",cy:"Ҳашаматли Monaliza коллекцияси. Уч ойналли нафис комод.",ru:"Роскошная коллекция Монализа с тройным зеркалом.",en:"Luxurious Monaliza collection with triple mirror."},
-    sizes:"Kamod: 200x55 | Penal: 250x85x55",
-    images:["./products/monaliza1.jpg","./products/monaliza2.jpg","./products/monaliza3.jpg"],
+    id:9,
+    name:{uz:"Monika yotoqxona to'plami",cy:"Monika ётоқхона тўплами",ru:"Спальный гарнитур Моника",en:"Monika Bedroom Set"},
+    desc:{uz:"Oq rangdagi nafis Monika yotoqxona to'plami. Shkaf, krovat, tryumo, tumba va boy oynadan iborat.",cy:"Оқ рангдаги нафис Monika ётоқхона тўплами.",ru:"Элегантный спальный гарнитур Моника в белом цвете.",en:"Elegant white Monika bedroom set."},
+    sizes:"Shkaf: 270x220 | Krovat: 220x140 | Tryumo: 180x165 | Tumba: 55x66",
+    images:["./products/monika1.jpg","./products/monika2.jpg","./products/monika3.jpg","./products/monika4.jpg","./products/monika5.jpg"],
     video:null,
     badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
+  },
+  {
+    id:10,
+    name:{uz:"Sofiya yotoqxona to'plami",cy:"Sofiya ётоқхона тўплами",ru:"Спальный гарнитур София",en:"Sofiya Bedroom Set"},
+    desc:{uz:"Zamonaviy Sofiya yotoqxona to'plami. Bronza eshikli shkaf va to'liq jihozlar bilan.",cy:"Замонавий Sofiya ётоқхона тўплами бронза эшикли шкаф билан.",ru:"Современный гарнитур София с шкафом с бронзовыми дверями.",en:"Modern Sofiya bedroom set with bronze-door wardrobe."},
+    sizes:"Shkaf: 260x230 | Krovat: 230x220 | Tryumo: 175x140 | Tumba: 40x60",
+    images:["./products/sofiya1.jpg","./products/sofiya2.jpg","./products/sofiya3.jpg","./products/sofiya4.jpg","./products/sofiya5.jpg"],
+    video:null,
+    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
+  },
+  {
+    id:11,
+    name:{uz:"Lusso yotoqxona to'plami",cy:"Lusso ётоқхона тўплами",ru:"Спальный гарнитур Луссо",en:"Lusso Bedroom Set"},
+    desc:{uz:"Krem va yog'och kombinatsiyasidagi Lusso yotoqxona to'plami. To'liq jihozlar bilan.",cy:"Крем ва ёғоч комбинациясидаги Lusso ётоқхона тўплами.",ru:"Гарнитур Луссо в сочетании кремового цвета и дерева.",en:"Lusso bedroom set in cream and wood combination."},
+    sizes:"Shkaf: 270x220 | Krovat: 260x210 | Tryumo: 185x140 | Tumba: 55x60",
+    images:["./products/lusso1.jpg","./products/lusso2.jpg","./products/lusso3.jpg","./products/lusso4.jpg","./products/lusso5.jpg"],
+    video:null,
+    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
   },
   {
     id:20,
@@ -256,8 +184,80 @@ const productsData = [
     images:["./products/italiano_pro1.jpg","./products/italiano_pro2.jpg","./products/italiano_pro3.jpg","./products/italiano_pro4.jpg","./products/italiano_pro5.jpg"],
     video:null,
     badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
+  },
+  {
+    id:1,
+    name:{uz:"Grant penal komod",cy:"Grant пенал комод",ru:"Грант пенал комод",en:"Grant Penal Komod"},
+    desc:{uz:"Oltin bezaklar bilan oq rangdagi klassik barokko dizayn. Ikki penal va katta komoddan iborat to'liq to'plam.",cy:"Олтин безаклар билан оқ рангдаги классик баррокко дизайн.",ru:"Классический дизайн в белом цвете с золотыми украшениями.",en:"Classic baroque design in white with gold ornaments."},
+    sizes:"Kamod: 200x55 | Penal: 250x100x55",
+    images:["./products/grant1.jpg","./products/grant2.jpg"],
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347177/grant_video_nozisf.mp4",
+    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
+  },
+  {
+    id:2,
+    name:{uz:"Pallazzo penal komod",cy:"Pallazzo пенал комод",ru:"Паллаццо пенал комод",en:"Pallazzo Penal Komod"},
+    desc:{uz:"Hashamatli Pallazzo kolleksiyasi. Ikki penal va katta komod bilan to'liq to'plam.",cy:"Ҳашаматли Pallazzo коллекцияси.",ru:"Роскошная коллекция Паллаццо с двумя пеналами и комодом.",en:"Luxurious Pallazzo collection with two penals and a large komod."},
+    sizes:"Kamod: 221x60 | Penal: 250x80x60",
+    images:["./products/pallazzo1.jpg"],
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776347455/pallazzo_video_pdjgqc.mp4",
+    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
+  },
+  {
+    id:3,
+    name:{uz:"Nur eco Hi-tech penal komod",cy:"Nur eco Hi-tech пенал комод",ru:"Нур эко Hi-tech пенал комод",en:"Nur Eco Hi-Tech Penal Komod"},
+    desc:{uz:"Zamonaviy hi-tech uslubdagi oq rangdagi nafis penal komod to'plami.",cy:"Замонавий hi-tech услубдаги оқ рангдаги нафис пенал комод тўплами.",ru:"Элегантный комплект в стиле hi-tech в белом цвете.",en:"Elegant hi-tech style penal komod set in white."},
+    sizes:"Kamod: 220x55 | Penal: 250x80x55",
+    images:["./products/nur1.jpg"],
+    video:"https://res.cloudinary.com/dh9ortxh1/video/upload/v1776346951/nur_video_kcni1n.mp4",
+    badge:{uz:"Mashhur",cy:"Машҳур",ru:"Популярное",en:"Popular"}
+  },
+  {
+    id:4,
+    name:{uz:"Aziya Shampan penal komod",cy:"Aziya Shampan пенал комод",ru:"Азия Шампань пенал комод",en:"Aziya Shampan Penal Komod"},
+    desc:{uz:"Shampan rangidagi nafis Aziya kolleksiyasi. Ikki penal va komoddan iborat to'plam.",cy:"Шампань рангидаги нафис Азия коллекцияси.",ru:"Элегантная коллекция Азия в цвете шампань.",en:"Elegant Aziya collection in champagne color."},
+    sizes:"Kamod: 185x55 | Penal: 255x105x55",
+    images:["./products/aziya_shampan1.jpg"],
+    video:null,
+    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
+  },
+  {
+    id:5,
+    name:{uz:"Aziya Orex penal komod",cy:"Aziya Orex пенал комод",ru:"Азия Орех пенал комод",en:"Aziya Orex Penal Komod"},
+    desc:{uz:"Yog'och rangidagi Aziya Orex kolleksiyasi. Klassik dizayn va premium materiallar.",cy:"Ёғоч рангидаги Азия Orex коллекцияси.",ru:"Коллекция Азия Орех в цвете дерева.",en:"Aziya Orex collection in wood color."},
+    sizes:"Kamod: 185x55 | Penal: 255x105x55",
+    images:["./products/aziya_orex1.jpg"],
+    video:null,
+    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
+  },
+  {
+    id:17,
+    name:{uz:"Sofia penal komod",cy:"Sofia пенал комод",ru:"София пенал комод",en:"Sofia Penal Komod"},
+    desc:{uz:"Zamonaviy hi-tech uslubdagi oq va oltin rangdagi Sofia penal komod to'plami.",cy:"Замонавий hi-tech услубдаги оқ ва олтин рангдаги Sofia пенал комод тўплами.",ru:"Современный комплект пенал-комод София в белом и золотом цвете.",en:"Modern Sofia penal komod set in white and gold."},
+    sizes:"Penal: 230x80x50 | Kamod: 230x265",
+    images:["./products/sofia_pk1.jpg","./products/sofia_pk2.jpg","./products/sofia_pk3.jpg","./products/sofia_pk4.jpg"],
+    video:null,
+    badge:{uz:"Yangi",cy:"Янги",ru:"Новинка",en:"New"}
+  },
+  {
+    id:18,
+    name:{uz:"Sezar penal komod",cy:"Sezar пенал комод",ru:"Цезарь пенал комод",en:"Sezar Penal Komod"},
+    desc:{uz:"Zamonaviy Sezar penal komod to'plami. Katta ko'zgu va shisha penallar bilan.",cy:"Замонавий Sezar пенал комод тўплами. Катта кўзгу ва шиша пеналлар билан.",ru:"Современный комплект Цезарь с большим зеркалом и стеклянными пеналами.",en:"Modern Sezar set with large mirror and glass penals."},
+    sizes:"Penal: 220x75 | Kamod: 220x200",
+    images:["./products/sezar1.jpg","./products/sezar2.jpg","./products/sezar3.jpg","./products/sezar4.jpg"],
+    video:null,
+    badge:{uz:"Premium",cy:"Премиум",ru:"Премиум",en:"Premium"}
+  },
+  {
+    id:19,
+    name:{uz:"Monaliza penal komod",cy:"Monaliza пенал комод",ru:"Монализа пенал комод",en:"Monaliza Penal Komod"},
+    desc:{uz:"Hashamatli Monaliza kolleksiyasi. Uch oynali nafis komod va barokko uslubidagi penal.",cy:"Ҳашаматли Monaliza коллекцияси. Уч ойналли нафис комод.",ru:"Роскошная коллекция Монализа с тройным зеркалом.",en:"Luxurious Monaliza collection with triple mirror."},
+    sizes:"Kamod: 200x55 | Penal: 250x85x55",
+    images:["./products/monaliza1.jpg","./products/monaliza2.jpg","./products/monaliza3.jpg"],
+    video:null,
+    badge:{uz:"Eng ko'p sotilgan",cy:"Энг кўп сотилган",ru:"Хит продаж",en:"Best Seller"}
   }
-];
+]
 
 // =============================================
 // LANGUAGE
